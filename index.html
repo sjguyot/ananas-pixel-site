@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ananas Pixel is an independent game studio crafting bright worlds, weird heroes, and memorable adventures." />
+    <title>Ananas Pixel — Independent Game Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Ananas Pixel home">
+        <span class="wordmark-fruit">✦</span>
+        <span>ANANAS<br /><b>PIXEL</b></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <nav class="site-nav">
+        <a href="#games">Games</a>
+        <a href="#studio">Studio</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Say hello <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Independent game studio · Montréal / Everywhere</p>
+          <h1>Small team.<br /><em>Big pixels.</em></h1>
+          <p class="hero-intro">We make playful games with strange worlds, juicy movement, and a little sunshine in every frame.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#games">Explore our games <span>↓</span></a>
+            <a class="text-link" href="#studio">Meet the studio <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art reveal">
+          <div class="sun"></div>
+          <div class="pixel pixel-a"></div><div class="pixel pixel-b"></div><div class="pixel pixel-c"></div>
+          <div class="art-frame">
+            <span class="frame-label">AP // 001</span>
+            <img src="Logos/Logo%20pixel%20art%20Ananas%20Pixel%20Studio.png" alt="Ananas Pixel pineapple game studio logo" />
+            <span class="frame-corner">✦</span>
+          </div>
+          <p class="art-caption">Good games taste better.</p>
+        </div>
+        <div class="scroll-note"><span></span> Scroll to play</div>
+      </section>
+
+      <section class="ticker" aria-label="Studio values">
+        <div>PIXEL PERFECT <span>✦</span> HANDCRAFTED WORLDS <span>✦</span> GOOD VIBES ONLY <span>✦</span> PIXEL PERFECT <span>✦</span> HANDCRAFTED WORLDS <span>✦</span></div>
+      </section>
+
+      <section class="games section" id="games">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Currently cooking</p>
+          <h2>Our games<span class="yellow">.</span></h2>
+          <p>Stories to get lost in. Worlds to come back to.</p>
+        </div>
+        <div class="game-grid">
+          <article class="game-card game-card-featured reveal">
+            <div class="game-image image-jungle">
+              <span class="status-pill">In development</span>
+              <span class="game-icon">✦</span>
+              <div class="game-title">NIGHT<br /><i>SHIFT</i></div>
+            </div>
+            <div class="game-info"><div><p class="game-type">Action / Adventure</p><h3>Night Shift</h3></div><span class="arrow-button">↗</span></div>
+          </article>
+          <article class="game-card reveal">
+            <div class="game-image image-sunset">
+              <span class="status-pill status-yellow">Prototype</span>
+              <span class="game-icon">☼</span>
+              <div class="game-title small">SUN<br /><i>RUNNER</i></div>
+            </div>
+            <div class="game-info"><div><p class="game-type">Arcade / Cozy</p><h3>Sunrunner</h3></div><span class="arrow-button">↗</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="studio section" id="studio">
+        <div class="studio-art reveal">
+          <div class="sticker">EST.<br /><strong>2024</strong></div>
+          <div class="studio-grid"></div>
+          <img src="Logos/Planche%20de%20logos%20r%C3%A9tro%20Ananas%20Pixel.png" alt="" />
+        </div>
+        <div class="studio-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A tiny studio with a loud imagination</p>
+          <h2>We put the <span class="underline">fun</span> in fundamentals<span class="yellow">.</span></h2>
+          <p>Our team is small by design. It means every idea gets heard, every frame gets care, and every game gets a little bit of our weirdness.</p>
+          <div class="stats"><div><strong>03</strong><span>People<br />making magic</span></div><div><strong>∞</strong><span>Ideas<br />in the backlog</span></div><div><strong>1</strong><span>Very good<br />pineapple</span></div></div>
+          <a class="text-link" href="#contact">More about us <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact-inner reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Open line</p>
+          <h2>Have a good<br /><em>idea?</em> Let's talk<span class="yellow">.</span></h2>
+          <a class="contact-email" href="mailto:hello@ananaspixel.com">hello@ananaspixel.com <span>↗</span></a>
+        </div>
+        <div class="contact-fruit">✦</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Ananas Pixel</span>
+      <span>Made with joy &amp; too much coffee</span>
+      <div><a href="#">Instagram</a><a href="#">Discord</a><a href="#">Press kit</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
